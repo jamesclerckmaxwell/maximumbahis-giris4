@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --color-primary: 100, 32, 170;
+  --color-primary-darker: 90, 29, 153;
+  --color-dark: 48, 48, 48;
+  --color-black: 24, 24, 24;
+  --color-light: 248, 248, 248;
+  --color-white: 255, 255, 255;
+}
+
+body {
+  background-color: rgb(var(--color-light));
+  color: rgb(var(--color-dark));
+}
+
+#offcanvas-overlay {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}/*# sourceMappingURL=globals.css.map */

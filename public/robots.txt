@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://maximumbahis-giris.vercel.app
+
+# Sitemaps
+Sitemap: https://maximumbahis-giris.vercel.app/sitemap.xml
